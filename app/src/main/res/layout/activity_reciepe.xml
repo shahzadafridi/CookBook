@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="im.bcs.cookbook.Reciepe">
+
+    <TextView
+        android:id="@+id/recipe"
+        android:textAlignment="textStart"
+        android:text="The rice is rinsed a few times in water and drained until the water turns from milky to clear.The rice should be soaked in water for at least 30 minutes before cooking. The unsoaked rice takes 25 minutes to parboil, whereas the soaked grains take only 15 minutes.[1] Rice should be parboiled till al dente. Remove the pot from the flame and transfer the rice in a sieve to drain the boiling water. Then transfer the rice back into the pot, and cover it with a lid, to prevent the steam from escaping. Cook the rice in its own steam at the lowest flame possible for a few minutes."
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
